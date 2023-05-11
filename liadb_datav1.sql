@@ -204,3 +204,6 @@ VALUES ('Sureshot', 'Combat start: gain bonus Attack Damage now, and every 4 sec
 (4) +18% Attack Damage\n
 (5) +25% Attack Damage');
 
+INSERT INTO User (username, password)
+VALUES ('admin', 'root');
+
