@@ -207,3 +207,16 @@ VALUES ('Sureshot', 'Combat start: gain bonus Attack Damage now, and every 4 sec
 INSERT INTO User (username, password)
 VALUES ('admin', 'root');
 
+INSERT INTO Champion (name, ultimateInfo, cost, recommendedItemIds, originIds, traitIds)
+VALUES
+    ('Aatrox', 'Aatrox sucks the soul of nearby enemies dealing magic damage and gaining max HP. Then he unleashes his demonic form for the rest of combat, replacing his spell with The Darkin Blade.
+The Darkin Blade: Aatrox slams his greatsword down in a line, dealing magic damage to all enemies hit and healing himself.', 4, '39,25,19,22,36', '11', null),
+    ('Alistar', 'Alistar slams the ground underneath his target, dealing magic damage and knocking them up for 1.5 seconds. He then roars, healing himself and the lowest health ally champion for 20% of his maximum health.', 3, '39,25,19,22,36', '7', '2,10'),
+    ('Annie', 'Annie blasts a cone of fire, dealing magic damage to enemies in front of her, then creates a Health shield on herself for 4 seconds.', 2, '18,19,25,39,22', '3,7', '15'),
+    ('Ashe', 'Ashe gains Attack Damage for the next 4 seconds.', 1, '1,2,13,14,16 ', '5', '16'),
+    ('Aurelion Sol', 'Aurelion Sol calls down meteors on random enemies that explode on impact. Each meteor deals magic damage and applies a burn for 10 seconds, dealing % of the targets maximum Health as true damage and reducing incoming healing by 33%.', 4, '6,33,31,2,30', '11', null),
+    ('Bel Veth', 'Bel Veth dashes around her target and unleashes a flurry of attacks, each dealing physical damage.
+	Each time this is cast, Bel Veth gains 30% bouns Attack Speed for the rest of combat.', 4, '16,4,2,8,13', '11', null),
+    ('Blitzcrank', 'Blitzcrank creates an empowered field around himself, reducing all damage taken by for 4 seconds.', 1, '39,25,19,22,36', '1', '3'),
+    ('Camille', 'Camille sweeps with her leg, dealing physical damage and Disarming enemies hit for a few seconds.
+	Disarm: target cannot move or attack', 2, '4,11,8,16,37', '1', '14');

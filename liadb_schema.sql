@@ -22,18 +22,13 @@ CREATE TABLE Trait (
     description VARCHAR(1000) NOT NULL
 );
 CREATE TABLE Champion (
-    id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    ultimateInfo VARCHAR(255) NOT NULL,
-    cost INT(11) NOT NULL,
-    traitId INT(11) NOT NULL,
-    trait2Id INT(11),
-    originId INT(11) NOT NULL,
-    origin2Id INT(11),
-    attackRange INT(11) NOT NULL,
-    recommendedItemIds VARCHAR(255),
-    recommendedOriginIds VARCHAR(255),
-    recommendedTraitIds VARCHAR(255)
+id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
+name VARCHAR(255) NOT NULL,
+ultimateInfo VARCHAR(255) NOT NULL,
+cost INT NOT NULL,
+recommendedItemIds VARCHAR(255),
+originIds VARCHAR(255),
+traitIds VARCHAR(255)
 );
 
 CREATE TABLE User (
