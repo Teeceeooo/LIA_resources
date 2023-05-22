@@ -27,7 +27,7 @@ description VARCHAR(1000) NOT NULL
 CREATE TABLE Champion ( 
 id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
 name VARCHAR(255) NOT NULL, 
-ultimateInfo VARCHAR(255) NOT NULL, 
+ultimateInfo VARCHAR(1000) NOT NULL, 
 cost INT NOT NULL, 
 recommendedItemIds VARCHAR(255), 
 recommendedOriginIds VARCHAR(255), 
