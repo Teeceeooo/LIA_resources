@@ -207,7 +207,7 @@ VALUES ('Sureshot', 'Combat start: gain bonus Attack Damage now, and every 4 sec
 INSERT INTO User (username, password)
 VALUES ('admin', 'root');
 
-INSERT INTO Champion (name, ultimateInfo, cost, recommendedItemIds, originIds, traitIds)
+INSERT INTO Champion (name, ultimateInfo, cost, recommendedItemIds, recommendedOriginIds, recommendedTraitIds)
 VALUES
     ('Aatrox', 'Aatrox sucks the soul of nearby enemies dealing magic damage and gaining max HP. Then he unleashes his demonic form for the rest of combat, replacing his spell with The Darkin Blade.
 The Darkin Blade: Aatrox slams his greatsword down in a line, dealing magic damage to all enemies hit and healing himself.', 4, '39,25,19,22,36', '11', null),
