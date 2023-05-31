@@ -1,61 +1,3 @@
-CREATE DATABASE liadb
-    DEFAULT CHARACTER SET utf8mb4
-    DEFAULT COLLATE utf8mb4_unicode_ci;
-
-USE liadb;
-
-
-
-	
-CREATE TABLE Item ( id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
-name VARCHAR(255) NOT NULL, 
-icon VARCHAR(255), 
-description VARCHAR(1000) NOT NULL 
-); 
-
-CREATE TABLE Origin ( 
-id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
-name VARCHAR(99) NOT NULL, 
-description VARCHAR(1000) NOT NULL 
-); 
-
-CREATE TABLE Trait ( id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
-name VARCHAR(99) NOT NULL, 
-description VARCHAR(1000) NOT NULL 
-); 
-
-CREATE TABLE Champion ( 
-id INT NOT NULL AUTO_INCREMENT PRIMARY KEY, 
-name VARCHAR(255) NOT NULL, 
-ultimateInfo VARCHAR(1000) NOT NULL, 
-cost INT NOT NULL, 
-recommendedItemIds VARCHAR(255), 
-recommendedOriginIds VARCHAR(255), 
-recommendedTraitIds VARCHAR(255)
-);
-
-CREATE TABLE User (
-id INT NOT NULL AUTO_INCREMENT PRIMARY KEY,
-username VARCHAR(255) NOT NULL UNIQUE,
-password VARCHAR(255) NOT NULL
-);
-
-INSERT INTO User (username, password) VALUES ('admin', 'root');
-
-INSERT INTO Champion (name, ultimateInfo, cost, recommendedItemIds, originIds, traitIds)
-VALUES
-    ('Aatrox', 'Aatrox sucks the soul of nearby enemies dealing magic damage and gaining max HP. Then he unleashes his demonic form for the rest of combat, replacing his spell with The Darkin Blade.
-The Darkin Blade: Aatrox slams his greatsword down in a line, dealing magic damage to all enemies hit and healing himself.', 4, '39,25,19,22,36', '11', null),
-    ('Alistar', 'Alistar slams the ground underneath his target, dealing magic damage and knocking them up for 1.5 seconds. He then roars, healing himself and the lowest health ally champion for 20% of his maximum health.', 3, '39,25,19,22,36', '7', '2,10'),
-    ('Annie', 'Annie blasts a cone of fire, dealing magic damage to enemies in front of her, then creates a Health shield on herself for 4 seconds.', 2, '18,19,25,39,22', '3,7', '15'),
-    ('Ashe', 'Ashe gains Attack Damage for the next 4 seconds.', 1, '1,2,13,14,16 ', '5', '16'),
-    ('Aurelion Sol', 'Aurelion Sol calls down meteors on random enemies that explode on impact. Each meteor deals magic damage and applies a burn for 10 seconds, dealing % of the targets maximum Health as true damage and reducing incoming healing by 33%.', 4, '6,33,31,2,30', '11', null),
-    ('Bel Veth', 'Bel Veth dashes around her target and unleashes a flurry of attacks, each dealing physical damage.
-	Each time this is cast, Bel Veth gains 30% bouns Attack Speed for the rest of combat.', 4, '16,4,2,8,13', '11', null),
-    ('Blitzcrank', 'Blitzcrank creates an empowered field around himself, reducing all damage taken by for 4 seconds.', 1, '39,25,19,22,36', '1', '3'),
-    ('Camille', 'Camille sweeps with her leg, dealing physical damage and Disarming enemies hit for a few seconds.
-	Disarm: target cannot move or attack', 2, '4,11,8,16,37', '1', '14');
-    
 INSERT INTO Item (name, description) VALUES ('DeathBlade', 'Grant 66% bonus Attack Damage.');
 INSERT INTO Item (name, description) VALUES ('Giantslayer', 'Abilities and attacks deal 25% more damage to enemies with more than 1600 maximum Health.');
 INSERT INTO Item (name, description) VALUES ('Edge of Night', 'Once per combat: At 60% Health, briefly become stealthed, becoming untargetable and shedding negative effects. Then, grant 15% bonus Attack Speed.');
@@ -262,3 +204,20 @@ VALUES ('Sureshot', 'Combat start: gain bonus Attack Damage now, and every 4 sec
 (4) +18% Attack Damage\n
 (5) +25% Attack Damage');
 
+SET @salt = UNHEX(SHA2(UUID(), 256));
+INSERT INTO User (username, salt, hashed_password)
+VALUES ('admin', @salt, SHA2(CONCAT('root', @salt), 256));
+
+INSERT INTO Champion (name, ultimateInfo, cost, recommendedItemIds, originIds, traitIds)
+VALUES
+    ('Aatrox', 'Aatrox sucks the soul of nearby enemies dealing magic damage and gaining max HP. Then he unleashes his demonic form for the rest of combat, replacing his spell with The Darkin Blade.
+The Darkin Blade: Aatrox slams his greatsword down in a line, dealing magic damage to all enemies hit and healing himself.', 4, '39,25,19,22,36', '11', null),
+    ('Alistar', 'Alistar slams the ground underneath his target, dealing magic damage and knocking them up for 1.5 seconds. He then roars, healing himself and the lowest health ally champion for 20% of his maximum health.', 3, '39,25,19,22,36', '7', '2,10'),
+    ('Annie', 'Annie blasts a cone of fire, dealing magic damage to enemies in front of her, then creates a Health shield on herself for 4 seconds.', 2, '18,19,25,39,22', '3,7', '15'),
+    ('Ashe', 'Ashe gains Attack Damage for the next 4 seconds.', 1, '1,2,13,14,16 ', '5', '16'),
+    ('Aurelion Sol', 'Aurelion Sol calls down meteors on random enemies that explode on impact. Each meteor deals magic damage and applies a burn for 10 seconds, dealing % of the targets maximum Health as true damage and reducing incoming healing by 33%.', 4, '6,33,31,2,30', '11', null),
+    ('Bel Veth', 'Bel Veth dashes around her target and unleashes a flurry of attacks, each dealing physical damage.
+	Each time this is cast, Bel Veth gains 30% bouns Attack Speed for the rest of combat.', 4, '16,4,2,8,13', '11', null),
+    ('Blitzcrank', 'Blitzcrank creates an empowered field around himself, reducing all damage taken by for 4 seconds.', 1, '39,25,19,22,36', '1', '3'),
+    ('Camille', 'Camille sweeps with her leg, dealing physical damage and Disarming enemies hit for a few seconds.
+	Disarm: target cannot move or attack', 2, '4,11,8,16,37', '1', '14');
