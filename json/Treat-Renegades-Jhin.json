@@ -1,0 +1,46 @@
+{
+    "comps": [
+      {
+        "name": "Treat_Renegades-Jhin",
+        "champions": [
+          [
+            { "champion": "Pyke", "items": [] },
+            { "champion": "Alistar", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Aatrox", "items": ["Warmogs Armor", "Dragons Claw", "Sunfire Cape"] },
+            { "champion": "", "items": [] },
+            { "champion": "Ekko", "items": [] },
+            { "champion": "Zac", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Viego", "items": ["Jeweled Gauntlet", "Bloodthirster", "Titans Resolve"] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "Vex", "items": ["Renegade Emblem"] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Morgana", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Jhin", "items": ["Last Whisper", "Infinity Edge", "Giantslayer"] }
+          ]
+        ]
+      }
+    ]
+  }
+  

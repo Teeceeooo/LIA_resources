@@ -1,0 +1,46 @@
+{
+    "comps": [
+      {
+        "name": "Oxforce-TwistedFate_Annie",
+        "champions": [
+          [
+            { "champion": "Alistar", "items": [] },
+            { "champion": "Viego", "items": ["Bloodthirster", "Titans Resolve", "Jeweled Gauntlet"] },
+            { "champion": "", "items": [] },
+            { "champion": "Annie", "items": ["Sunfire Cape", "Warmogs Armor", "Dragons Claw"] },
+            { "champion": "", "items": [] },
+            { "champion": "Ekko", "items": [] },
+            { "champion": "Fiora", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "Neeko", "items": ["Spear of Shojin", "Jeweled Gauntlet", "Giantslayer"] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Sona", "items": ["Blue Buff"] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Twisted Fate", "items": ["Guinsoos Rageblade", "Statikk Shiv", "Jeweled Gauntlet"] }
+          ]
+        ]
+      }
+    ]
+  }
+  

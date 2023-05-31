@@ -1,0 +1,46 @@
+{
+    "comps": [
+      {
+        "name": "Mecha-Threat",
+        "champions": [
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Garen", "items": ["Dragons Claw", "Gargoyle Stoneplate", "Warmogs Armor"] },
+            { "champion": "Aatrox", "items": [] },
+            { "champion": "Fiddlesticks", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "Wukong", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Bel Veth", "items": ["Last Whisper", "Bloodthirster", "Titans Resolve"] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Jax", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Morgana", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Aurelion Sol", "items": ["Spear of Shojin", "Jeweled Gauntlet", "Archangels Staff"] }
+          ]
+        ]
+      }
+    ]
+  }
+  

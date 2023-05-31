@@ -1,0 +1,58 @@
+{
+    "comps": [
+      {
+        "name": "Gnar-Reroll",
+        "champions": [
+          [
+            { "champion": "", "items": [] },
+            { "champion": "Ekko", "items": [] },
+            { "champion": "", "items": [] },
+            {
+              "champion": "Annie",
+              "items": ["Sunfire Cape", "Warmogs Armor", "Dragons Claw"]
+            },
+            {
+              "champion": "Gnar",
+              "items": ["Bloodthirster", "Titans Resolve", "Hand of Justice"]
+            },
+            { "champion": "Alistar", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            {
+              "champion": "Nunu",
+              "items": ["Bloodthirster", "Warmogs Armor", "Archangels Staff"]
+            }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "Lulu", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Morgana", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            {
+              "champion": "Sona",
+              "items": ["Blue Buff", "Jeweled Gauntlet", "Gadgeteen Emblem"]
+            }
+          ]
+        ]
+      }
+    ]
+  }
+  

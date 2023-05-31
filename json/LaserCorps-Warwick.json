@@ -1,0 +1,46 @@
+{
+    "comps": [
+      {
+        "name": "LaserCorps-Warwick",
+        "champions": [
+          [
+            { "champion": "", "items": [] },
+            { "champion": "Riven", "items": [] },
+            { "champion": "Renekton", "items": [] },
+            { "champion": "Garen", "items": ["Sunfire Cape", "Warmogs Armor", "Dragons Claw"] },
+            { "champion": "Mordekaiser", "items": ["Jeweled Gauntlet", "Hand of Justice", "Deathcap"] },
+            { "champion": "Blitzcrank", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "Warwick", "items": ["Bloodthirster", "Titans Resolve", "Edge of Night"] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Yasuo", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Urgot", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "Ashe", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ]
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,46 @@
+{
+    "comps": [
+      {
+        "name": "InfiniTeam-Samira",
+        "champions": [
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Garen", "items": ["InfiniTeam Emblem", "Warmogs Armor", "Dragons Claw"] },
+            { "champion": "Shen", "items": ["Sunfire Cape", "Warmogs Armor", "Dragons Claw"] },
+            { "champion": "Pantheon", "items": [] },
+            { "champion": "Fiddlesticks", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Urgot", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "Samira", "items": ["Giantslayer", "Last Whisper", "Infinity Edge"] },
+            { "champion": "", "items": [] },
+            { "champion": "Twisted Fate", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Sivir", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Ultimate Ezreal", "items": ["Giantslayer", "Infinity Edge", "Deathblade"] }
+          ]
+        ]
+      }
+    ]
+  }
+  

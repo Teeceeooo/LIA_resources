@@ -1,0 +1,62 @@
+{
+    "comps": [
+      {
+        "name": "AnimaSquad-MissFortune",
+        "champions": [
+          [
+            { "champion": "Garen", "items": [] },
+            { "champion": "", "items": [] },
+            {
+              "champion": "Ekko",
+              "items": [
+                "Anima Squad Emblem",
+                "Warmogs Armor",
+                "Gargoyle Stoneplate"
+              ]
+            },
+            { "champion": "", "items": [] },
+            {
+              "champion": "Riven",
+              "items": ["Sunfire Cape", "Dragons Claw", "Warmogs Armor"]
+            },
+            { "champion": "", "items": [] },
+            { "champion": "Alistar", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            {
+              "champion": "Miss Fortune",
+              "items": ["Spear of Shojin", "Jeweled Gauntlet", "Giantslayer"]
+            },
+            { "champion": "", "items": [] },
+            { "champion": "Jinx", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Syndra", "items": [] },
+            { "champion": "", "items": [] },
+            {
+              "champion": "Vayne",
+              "items": ["Guinsoos Rageblade", "Statikk Shiv", "Infinity Edge"]
+            }
+          ]
+        ]
+      }
+    ]
+  }
+  

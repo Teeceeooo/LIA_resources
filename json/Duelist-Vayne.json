@@ -1,0 +1,53 @@
+{
+    "comps": [
+      {
+        "name": "Duelist-Vayne",
+        "champions": [
+          [
+            { "champion": "", "items": [] },
+            { "champion": "Annie", "items": ["Duelist Emblem"] },
+            { "champion": "Yasuo", "items": [] },
+            {
+              "champion": "Nilah",
+              "items": [
+                "Locket of the Iron Solari",
+                "Locket of the Iron Solari",
+                "Locket of the Iron Solari"
+              ]
+            },
+            { "champion": "Gangplank", "items": [] },
+            { "champion": "Fiora", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "Twisted Fate", "items": ["Statikk Shiv", "Jeweled Gauntlet", "Hextech Gunblade"] },
+            { "champion": "Kayle", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Vayne", "items": ["Infinity Edge", "Spear of Shojin", "Giantslayer"] }
+          ]
+        ]
+      }
+    ]
+  }
+  

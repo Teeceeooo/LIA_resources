@@ -1,0 +1,46 @@
+{
+    "comps": [
+      {
+        "name": "Mecha-Samira",
+        "champions": [
+          [
+            { "champion": "", "items": [] },
+            { "champion": "Alistar", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Leona", "items": ["Bloodthirster", "Protectors Vow", "Redemption"] },
+            { "champion": "Ekko", "items": [] },
+            { "champion": "Fiddlesticks", "items": ["Ionic Spark", "Morellonomicon", "Jeweled Gauntlet"] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Garen", "items": [] },
+            { "champion": "Wukong", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] }
+          ],
+          [
+            { "champion": "Ultimate Ezreal", "items": ["Giantslayer", "Infinity Edge", "Last Whisper"] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "", "items": [] },
+            { "champion": "Samira", "items": ["Last Whisper", "Hextech Gunblade", "Giantslayer"] }
+          ]
+        ]
+      }
+    ]
+  }
+  
